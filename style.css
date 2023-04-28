@@ -1,0 +1,105 @@
+#modo {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	font-size: 24px;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+button {
+	transition: background-color 0.3s ease;
+}
+
+body {
+	background-color: #fff;
+	color: #333;
+}
+
+body.dark-mode {
+	background-color: #333;
+	color: #fff;
+}
+
+#modo.dark-mode {
+	color: #fff;
+}
+
+.calculator {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	background-color: #39023a;
+	border-radius: 10px;
+	margin: 50px auto;
+	padding: 20px;
+	width: 300px;
+}
+
+.display {
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 36px;
+	border: none;
+	outline: none;
+}
+
+#resultado {
+	background-color: #fff;
+	font-size: 36px;
+	border: none;
+	outline: none;
+	width: 285px;
+}
+
+.keys button {
+	background-color: #eee;
+	border: none;
+	border-radius: 5px;
+	color: #333;
+	font-size: 20px;
+	margin: 5px;
+	padding: 10px;
+	width: 60px;
+	height: 50px;
+}
+
+.keys button:hover {
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.keys button:active {
+	background-color: #999;
+	box-shadow: none;
+	transform: translateY(2px);
+}
+
+.keys button:focus {
+	outline: none;
+}
+
+.keys button:nth-child(1) {
+	background-color: #ff6666;
+	color: #fff;
+}
+
+.keys button:nth-child(2) {
+	background-color: #ffcc66;
+	color: #fff;
+}
+
+.keys button:nth-child(4),
+.keys button:nth-child(8),
+.keys button:nth-child(12),
+.keys button:nth-child(16),
+.keys button:nth-child(18) {
+	background-color: #66cc66;
+	color: #fff;
+}
+
+.keys button:nth-child(17) {
+	width: 110px;
+}
