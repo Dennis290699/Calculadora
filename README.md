@@ -12,7 +12,7 @@ A simple calculator built with HTML, CSS, and JavaScript.
 
 Clone the repository:
 
-https://github.com/Dennis290699/calculator.git
+git clone https://github.com/Dennis290699/calculator.git
 
 Open `index.html` in your web browser.
 
